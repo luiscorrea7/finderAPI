@@ -1,0 +1,40 @@
+{
+  "name": "v1api-bp",
+  "version": "1.0.0",
+  "description": "api boilerplate",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=9.x"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscorrea7/V1Api-BP.git"
+  },
+  "keywords": [
+    "api",
+    "boilerplate",
+    "template",
+    "backend"
+  ],
+  "author": "Luis Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiscorrea7/V1Api-BP/issues"
+  },
+  "homepage": "https://github.com/luiscorrea7/V1Api-BP#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
