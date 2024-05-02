@@ -1,5 +1,6 @@
 export const feedbackRes = async (req) => {
-  console.log(req.ip);
+  const clientIP = req.socket.remoteAddress;
+  console.log(clientIP)
   return ({
     uptime: `${process.uptime()}`,
     data: {
